@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/storytime', function(req, res) {
-	res.send("<p> Hey" + req.query.name + "good" );
+	res.send("<p> Hey " + req.query.name + " good" );
 });
 
 app.listen(app.get('port'), function() {
